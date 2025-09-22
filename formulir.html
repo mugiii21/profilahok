@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Mahasiswa</h1>
+    <form method="post" action="daftar.php">
+        Nama : <input type="text" name="nama"><br><br>
+        Nim : <input type="number" name="nim"><br><br>
+        Password : <input type="password" name="key"><br><br>
+        Tanggal Lahir : <input type="date" name="tgl"><br><br>
+        Jenis Kelamin : <input type="radio" name="jk" value ="Laki-Laki">Laki-Laki 
+                        <input type="radio" name="jk" value="Perempuan"> Perempuan <br><br>
+        Program Studi <select name="prodi">
+        <option value="TIO">TIO</option>
+        <option value="SIIO" selected>SIIO</option>
+        <option value="ABO">ABO</option>
+        <option value="TKP">TKP</option>
+        <option value="TRO">TRO</option>
+
+        </select><br>
+        Unit Kegiatan Mahasiswa : <br>
+        <input name="ukm" type="checkbox" value="HPA Tradayakala"/> HPA Tradayakala <br>
+        <input name="ukm" type="checkbox" value="LPM Industria"/> LPM Industria<br>
+        <input name="ukm" type="checkbox" value="FKSM"/> FKSM<br><br>
+        Alasan memilih program studi : <br>
+        <textarea name="alasan" rows="5" cols="70" placeholder="ketik disini"></textarea><br>
+        Pas Foto : <input type="file" name="pasfoto"><br><br>
+        <button type="submit">Daftar</button>
+        <button type="reset">Reset</button>
+        <button type="click">Klik</button>
+    </form>
+</body>
+</html>

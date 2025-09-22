@@ -1,0 +1,22 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+/*id selector */
+#coba{
+    background-color: tomato;
+}
+/*class selector */
+.latihan{
+    background-color : forestgreen;
+}
